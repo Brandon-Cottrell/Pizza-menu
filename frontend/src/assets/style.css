@@ -1,0 +1,362 @@
+html,body {
+    width: 100%;
+}
+@media only screen and (max-width: 400px) {
+    html,body {
+        width: 60vh;
+        margin: 0%;
+        padding: 0;
+        height: 60vh;
+    }
+}
+
+.main {
+    position: relative;
+}
+.main .main-img nav {
+    background-color: #F43103;
+    height: 40px;
+}
+.main .main-img nav button {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    text-align: center;
+    background-color: #fd3103;
+    color: #FDFAFA;
+    border: 0;
+}
+
+.main .main-img nav img {
+    position: absolute;
+    right: 0;
+    width: 30px;
+    top: 5px;
+    vertical-align: text-bottom;
+
+}
+@media only screen and (max-width: 400px) {
+.main .main-img nav img {
+    width: 26px;
+    top: 10px;
+    vertical-align: text-bottom;
+    height: 20px;
+}
+}
+
+.main .main-img nav p {
+    color: #FDFAFA;
+    text-align: center;
+    top: 0px;
+    position: absolute;
+    font-size: 25px;
+    margin: 0px;
+
+}
+
+.main .main-img h1 {
+    color: #FDFAFA;
+    position: absolute;
+    top: 100px;
+    font-size: 80px;
+    text-align: center;
+    left: 10px;
+    font-family: fangsong;
+}
+@media only screen and (max-width: 400px) {
+    .main .main-img h1 {
+        font-size: 40px;
+    }
+}
+
+.main .main-img h3 {
+    color: #FDFAFA;
+    position: absolute;
+    top: 225px;
+    font-size: 40px;
+    text-align: center; 
+    left: 10px;
+    font-family: spartan;
+
+}
+
+@media only screen and (max-width: 400px) {
+    .main .main-img h3 {
+        font-size: 20px;
+        top: 170px;
+    }
+}
+
+.main .main-img img {
+width: 100%;
+vertical-align: text-bottom;
+}
+@media only screen and (max-width: 400px) {
+    .main .main-img img {
+        height: 87vh;
+        object-fit: cover;
+        width: 60vh;
+    }
+}
+
+
+
+
+.about {
+color: #FDFAFA;
+background-color: #F43103;
+font-size: 25px;
+padding: 20px;
+text-align: center;
+
+}
+
+.menuitems  {
+text-align: center;
+color: #F43103;
+}
+
+.option img {
+width: 100%;
+}
+
+.option p {
+font-size: 14px;
+color: #F43103;
+}
+.option .heading {
+font-size: 18px;
+}
+
+.option button {
+    background-color: #fd3103;
+    color: #fdfafa;
+    width: 90px;
+    border: 0;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 3 px;
+    padding: 1% 4%;
+    height: 36 px;
+    bottom: 9 px;
+    /* float: right; */
+    /* display: flex; */
+    position: absolute;
+    right: 15px;
+    bottom: 24px;
+
+}
+
+.option .price {
+    font-size: 20px;
+}
+
+
+.option {
+    color: #fd3103;
+    position: relative;
+    margin: 10px 20px;
+    box-shadow: #fdfafa;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8px;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+  }
+
+.option .heading p {
+    font-size: 20px;
+}
+.paragraph {
+    margin: 10px;
+}
+
+.images ul {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+list-style: none;
+color: #F43103;
+margin-top: 40px;
+padding: 0;
+}
+@media only screen and (max-width: 400px) {
+    .images ul {
+        display: grid;
+grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+ .foot {
+    background-color: #fd3103;
+    justify-content: flex-end;
+    display: flex;
+  }
+  
+  .foot button {
+    background-color: #fff;
+    font-size: 18px;
+    color: #fd3103;
+    margin: 5px 20px;
+    border: 0;
+  }
+  @media only screen and (max-width: 400px) {
+    .foot button {
+    margin: 6px 36px;
+    }
+  }
+  .foot p {
+    color: #FDFAFA;
+
+  }
+    .popup {
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.2);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+      }
+      .popup .popup-inner {
+        background-color: #fdfafa;
+        color: #f43103;
+        padding: 1% 11%;
+        width: 40vh;
+        height: 75vh;
+        margin: 10% 26%;
+}
+@media only screen and (max-width: 400px) {
+    .popup .popup-inner {
+        margin: 10% 4%;
+        height: 86vh;
+    }}
+    
+      .popup-inner .heading {
+        font-size: 35px;
+      }
+      .popup-inner h1 {
+        text-align: center;
+      }
+      .popup-input input{
+          padding: 5px;
+          border-radius: 5px;
+          border: 1px solid #f43103;
+          width: 100%;
+          padding: 15px;
+          font-size: 15px;
+      }
+
+      .btn {
+        background-color: #f43103;
+        color: #fdfafa;
+        padding: 10px;
+        display: flex;
+        margin-top: 20px;
+        width: 80px;
+    }
+
+     .section1 .nav {
+    position: static;
+    background-color: #F43103;
+    height: 50px;
+    }
+
+    .section1 img {
+        width: 2%;
+        position: relative;
+        vertical-align: text-bottom;
+        height: 50%;
+    }
+
+    .detail {
+        text-align: center;
+        color: #F43103;
+    }
+
+    table,
+    th,
+    tr {
+        border-collapse: collapse;
+        border-bottom: 1px solid;
+        text-align: left;
+        margin: 5% 12%;
+        width: 70%;
+}
+
+    @media only screen and (max-width: 400px) {
+      table,
+      th,
+      tr {
+        font-size: 15px;
+      }
+    }
+    table td {
+      padding: 30px;
+    }
+
+  .name {
+    border-radius: 5px;
+    width: 100%;
+    font-size: 18px;
+}
+.phone {
+    border-radius: 5px;
+    border: 1px solid #f43103;
+    width: 100%;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.formpage {
+    width: 70%;
+    color: #F43103;
+    padding-left: 10%
+}
+
+.formpage input {
+    width: 100%; 
+    border: 1px solid #f43103;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+.detail .paragraph {
+    font-size: 15px;
+    color: #f43103;
+    margin-bottom: 20px;
+
+}
+ .total {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.thankyou {
+    text-align: center;
+    color: #f43103;
+    font-size: 30px;
+}
+@media only screen and (max-width: 400px) {
+    .thankyou {
+        font-size: 20px;
+    }
+}
+
+.thankyou .heading{
+    margin-bottom: 50px;
+}
+@media only screen and (max-width: 400px) {
+    .thankyou .heading{
+        margin-bottom: 50px;
+        font-size: 20px;
+    }
+}
+.thank-button {
+    width: 150px;
+    height: 40px;
+    background-color: #f43103;
+    color: #FDFAFA;
+    border: 0;
+
+
+}
